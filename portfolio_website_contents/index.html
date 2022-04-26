@@ -9,32 +9,30 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        // this will be the nav bar at the top - will display in a flexbox
+        <!-- this will be the nav bar at the top - will display in a flexbox -->
         <nav>
             <ul>
                 <li id="myName">Nicholas Meade</li>
-                <li id="linkedIn"><img src="\icon_assets\linkedIn_bubble_icon.png"></li>
-                <li id="hamburgerIcon"></li>
+                <li id="linkedIn"><img id = linkedIn src="linkedIn_bubble_icon.png"></li>
+                <li id="hamburgerIcon"><img src=""></li>
                 <li id="aboutMe">About Me</li>
                 <li id="projects">Projects</li>
                 <li id="skills">Skills</li>
                 <li id="contact">Contact</li>
             </ul>
         </nav>
-
-        // each section of the webpage will be contained in its own div
-        // unclear if a grid or flex will be needed for aboutMe, will see how layout works
+        <!-- each section of the webpage will be contained in its own div
+        unclear if a grid or flex will be needed for aboutMe, will see how layout works -->
         <div class="aboutMe">
-            // this will be my own picture (link to it later)
+            <!-- this will be my own picture (link to it later) -->
             <!-- <img src=""> -->
             <p>
-                Personal Brand Statement goes here.
+                I am a Software Engineer with a background in healthcare as a Registered Dietitian for nearly 4 years. I have developed extensive proficiency in active problem solving every day in a high stress hospital environment to make appropriate, complex decisions alongside consistent collaboration with medical professionals for patient care. I bring my passion for helping make a positive difference in people’s lives from my previous industry’s experience. My background in healthcare, diverse experience in traversing a consistently stressful environment, while problem solving and establishing very strong interpersonal skills on a team with a rapidly changing environment in a hospital enables me to adapt swiftly to rapidly evolving sectors of technology and arrive at solutions to complex problems that will have a long-lasting positive impact for a large scale of individuals.
             </p>
         </div>
-
-        // research how to do carousel for projects and see if having it within a grid or flex is better
+        <!-- research how to do carousel for projects and see if having it within a grid or flex is better -->
         <div class="projects">
-            // these imgs will be imgs of all the projects, with each having its own paragrpah element beneath, placeholder imgs to come later
+            <!-- these imgs will be imgs of all the projects, with each having its own paragrpah element beneath, placeholder imgs to come later -->
             <img src="project1">
                 <p id="project1Description"></p>
             <img src="project2">
@@ -44,10 +42,9 @@
             <img src="project4">
                 <p id="project4Description"></p>
         </div>
-
-        // grid or flex, may do flex depending on how many skills I put to be displayed
+        <!-- grid or flex, may do flex depending on how many skills I put to be displayed -->
         <div class="skills">
-            // these imgs will be imgs of all the skills/technologies known, will include a small paragraph text beneath for its name
+            <!-- these imgs will be imgs of all the skills/technologies known, will include a small paragraph text beneath for its name -->
             <img src="html">
                 <p id="htmlIcon">HTML</p>
             <img src="css">
@@ -65,13 +62,21 @@
             <img src="epic">
                 <p id="epicIcon">EPIC</p>
         </div>
-
-        // needs form field, needs to capture data for inputting user's contact for Google Sheets
-        <div class="contact"></div>
-
-        // will contain copyright, flex for the icons on the bottom
-        <footer class="bottomOfPage"></footer>
-
+        <!-- needs form field, needs to capture data for inputting user's contact for Google Sheets -->
+        <div class="contact">
+            <form>
+            </form>
+        </div>
+        <!-- will contain copyright, flex for the icons on the bottom -->
+        <footer class="bottomOfPage">
+            <p>© 2022 Nicholas Meade</p>
+            <nav>
+                <ul>
+                    <li id="linkedIn"><img src=""></li>
+                    <li id="gitHub"><img src=""></li>
+                </ul>
+            </nav>
+        </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="main.js"></script>
     </body>
