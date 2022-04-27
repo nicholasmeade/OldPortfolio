@@ -10,11 +10,13 @@
     </head>
     <body>
         <!-- this will be the nav bar at the top - will display in a flexbox -->
-        <nav class="headNav">
-            <ul id="headNav">
+        <nav class="container">
+            <ul class="navLeft">
                 <li id="myName">Nicholas Meade</li>
-                <li id="linkedIn"><img id = linkedIn src=""></li>
-                <li id="hamburgerIcon"><img src=""></li>
+            </ul>
+            <ul class="navRight">
+                  <!-- <li id="linkedIn"><img id = linkedIn src=""></li>
+                <li id="hamburgerIcon"><img src=""></li> -->
                 <li id="aboutMe">About Me</li>
                 <li id="projects">Projects</li>
                 <li id="skills">Skills</li>
@@ -26,44 +28,42 @@
         <div class="aboutMe">
             <!-- this will be my own picture (link to it later) -->
             <img src="">
+            <h2>About Me</h2>
             <p>
                 I am a Software Engineer with a background in healthcare as a Registered Dietitian for nearly 4 years. I have developed extensive proficiency in active problem solving every day in a high stress hospital environment to make appropriate, complex decisions alongside consistent collaboration with medical professionals for patient care. I bring my passion for helping make a positive difference in people’s lives from my previous industry’s experience. My background in healthcare, diverse experience in traversing a consistently stressful environment, while problem solving and establishing very strong interpersonal skills on a team with a rapidly changing environment in a hospital enables me to adapt swiftly to rapidly evolving sectors of technology and arrive at solutions to complex problems that will have a long-lasting positive impact for a large scale of individuals.
             </p>
         </div>
         <!-- research how to do carousel for projects and see if having it within a grid or flex is better -->
         <div class="projects">
+            <h2>Projects</h2>
             <!-- these imgs will be imgs of all the projects, with each having its own paragrpah element beneath, placeholder imgs to come later -->
-            <img src="project1">
+            <img src="Project 1 Placeholder.png">
                 <p id="project1Description"></p>
-            <img src="project2">
+            <img src="Project 2 Placeholder.png">
                 <p id="project2Description"></p>
-            <img src="project3">
+            <img src="Project 3 Placeholder.png">
                 <p id="project3Description"></p>
-            <img src="project4">
+            <img src="Project 4 Placeholder.png">
                 <p id="project4Description"></p>
         </div>
         <!-- grid or flex, may do flex depending on how many skills I put to be displayed -->
         <div class="skills">
+            <h2>Skills</h2>
             <!-- these imgs will be imgs of all the skills/technologies known, will include a small paragraph text beneath for its name -->
-            <img src="html">
-                <p id="htmlIcon">HTML</p>
-            <img src="css">
-                <p id="cssIcon">CSS</p>
-            <img src="js">
-                <p id="jsIcon">JS</p>
-            <img src="jquery">
-                <p id="jqueryIcon">JQuery</p>
-            <img src="python">
-                <p id="pythonIcon">Python</p>
-            <img src="premiere">
-                <p id="premiereIcon">Premiere Pro</p>
-            <img src="ps">
-                <p id="psIcon">Photoshop</p>
-            <img src="epic">
-                <p id="epicIcon">EPIC</p>
+            <div class="icons">
+                <img src="HTML Icon (badge).png">
+                <img src="CSS Icon (badge).png">
+                <img src="JS Icon (badge).png">
+                <img src="JQuery Icon.png">
+                <img src="Python Icon.png">
+                <img src="Premiere Icon.png">
+                <img src="Photoshop Icon.png">
+                <img src="EPIC Icon.png">
+            </div>
         </div>
         <!-- needs form field, needs to capture data for inputting user's contact for Google Sheets -->
         <div class="contact">
+            <h2>Contact</h2>
             <form>
             </form>
         </div>

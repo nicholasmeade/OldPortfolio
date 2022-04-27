@@ -1,19 +1,31 @@
-
-
-
-
-
-/* #headNav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+body {
+    marin: 10px;
 }
 
 ul {
     list-style-type: none;
 }
 
-#linkedIn {
-    height: 100px;
-    width: 100px;
-} */
+nav.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.container ul li {
+    display: inline-block;
+}
+
+h2 {
+    text-align: center;
+}
+
+.aboutMe p {
+    text-align: center;
+}
+
+div.skills img {
+    display: flex;
+    justify-content: center;
+    height: 125px;
+    width: 125px;
+}
