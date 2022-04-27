@@ -6,16 +6,10 @@ ul {
     list-style-type: none;
 }
 
-.navLeft {
-    display: flex;
-    justify-content: space-between;
-}
-
 #linkedIn,
 #hamburgerIcon {
     max-width: 50px;
     max-height: 50px;
-    position: right;
 }
 
 /* nav.container {

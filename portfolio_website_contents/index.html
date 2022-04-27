@@ -12,22 +12,15 @@
     <body>
         <!-- this will be the nav bar at the top - will display in a flexbox -->
         <nav class="container">
-            <ul class="navLeft">
+            <ul class="navBar">
                 <li id="myName">Nicholas Meade</li>
                 <li id="contactMobile">Contact</li>
                 <li><img id="linkedIn" src="linkedIn_bubble_icon.png"></li>
                 <li><img id="hamburgerIcon" src="Hamburger Icon.png"></li>
-            </ul>
-            <ul class="navRight">
                 <li id="aboutMe">About Me</li>
                 <li id="projects">Projects</li>
                 <li id="skills">Skills</li>
                 <li id="contact">Contact</li>
-            </ul>
-            <ul class="mobileOnly">
-                <li id="contactMobile">Contact</li>
-                <li><img id="linkedIn" src="linkedIn_bubble_icon.png"></li>
-                <li><img id="hamburgerIcon" src="Hamburger Icon.png"></li>
             </ul>
         </nav>
         <!-- each section of the webpage will be contained in its own div
@@ -44,13 +37,13 @@
         <div class="projects">
             <h2>Projects</h2>
             <!-- these imgs will be imgs of all the projects, with each having its own paragrpah element beneath, placeholder imgs to come later -->
-            <img src="Project 1 Placeholder.png">
+            <img class="p1" src="Project 1 Placeholder.png">
                 <p id="project1Description"></p>
-            <img src="Project 2 Placeholder.png">
+            <img class="p2" src="Project 2 Placeholder.png">
                 <p id="project2Description"></p>
-            <img src="Project 3 Placeholder.png">
+            <img class="p3" src="Project 3 Placeholder.png">
                 <p id="project3Description"></p>
-            <img src="Project 4 Placeholder.png">
+            <img class="p4" src="Project 4 Placeholder.png">
                 <p id="project4Description"></p>
         </div>
         <!-- grid or flex, may do flex depending on how many skills I put to be displayed -->
@@ -58,14 +51,14 @@
             <h2>Skills</h2>
             <!-- these imgs will be imgs of all the skills/technologies known, will include a small paragraph text beneath for its name -->
             <div class="icons">
-                <img src="HTML Icon (badge).png">
-                <img src="CSS Icon (badge).png">
-                <img src="JS Icon (badge).png">
-                <img src="JQuery Icon.png">
-                <img src="Python Icon.png">
-                <img src="Premiere Icon.png">
-                <img src="Photoshop Icon.png">
-                <img src="EPIC Icon.png">
+                <img class="html" src="HTML Icon (badge).png">
+                <img class="css" src="CSS Icon (badge).png">
+                <img class="js" src="JS Icon (badge).png">
+                <img class="jquery" src="JQuery Icon.png">
+                <img class="python" src="Python Icon.png">
+                <img class="premiere" src="Premiere Icon.png">
+                <img class="ps" src="Photoshop Icon.png">
+                <img class="epic" src="EPIC Icon.png">
             </div>
         </div>
         <!-- needs form field, needs to capture data for inputting user's contact for Google Sheets -->
@@ -84,7 +77,7 @@
                 </ul>
             </nav>
         </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="main.js"></script>
     </body>
 </html>

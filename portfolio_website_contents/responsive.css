@@ -1,7 +1,47 @@
 /* MOBILE */
 @media screen and (max-width: 576px) {
-    .navRight {
+    #aboutMe,
+    #projects,
+    #skills,
+    #contact {
         visibility: hidden;
+    }
+    .navBar {
+        display: inline-flex;
+    }
+    .navBar #contactMobile #linkedIn #hamburgerIcon {
+        justify-content: flex-end;
+    }
+    .p1,
+    .p2,
+    .p3,
+    .p4 {
+        justify-self: center;
+    }
+    .skills {
+        width: auto;
+    }
+    .icons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .html,
+    .css,
+    .js,
+    .jquery,
+    .python,
+    .premiere,
+    .ps,
+    .epic {
+        align-self: center;
+        justify-self: center;
+    }
+    .icons.html {
+        grid-column: 1 / 2;
+    }
+    .icons.css {
+        grid-column: 2 / 3;
     }
 }
 
@@ -11,9 +51,13 @@
     #hamburgerIcon {
         visibility: hidden;
     }
-    .navRight {
-        display: flex;
+    #aboutMe,
+    #projects,
+    #skills,
+    #contact {
+        display: inline-flex;
         justify-content: flex-end;
+        position: top;
     }
 }
 
