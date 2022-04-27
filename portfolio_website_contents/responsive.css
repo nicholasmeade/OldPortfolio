@@ -1,0 +1,28 @@
+/* MOBILE */
+@media screen and (max-width: 576px) {
+    .navRight {
+        visibility: hidden;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    #contactMobile,
+    #linkedIn,
+    #hamburgerIcon {
+        visibility: hidden;
+    }
+    .navRight {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+/* TABLET */
+@media screen and (max-width: 768px) {
+  
+}
+
+/* DESKTOP */
+@media screen and (max-width: 1200px) {
+   
+}

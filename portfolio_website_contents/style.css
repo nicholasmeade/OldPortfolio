@@ -6,14 +6,26 @@ ul {
     list-style-type: none;
 }
 
-nav.container {
+.navLeft {
+    display: flex;
+    justify-content: space-between;
+}
+
+#linkedIn,
+#hamburgerIcon {
+    max-width: 50px;
+    max-height: 50px;
+    position: right;
+}
+
+/* nav.container {
     display: flex;
     justify-content: space-between;
 }
 
 nav.container ul li {
     display: inline-block;
-}
+} */
 
 h2 {
     text-align: center;
