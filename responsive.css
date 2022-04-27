@@ -1,0 +1,16 @@
+/* MOBILE */
+@media screen and (max-width: 576px) {
+    nav.container.navRight {
+        content-visibility: hidden;
+    }
+}
+
+/* TABLET
+@media screen and (max-width: 768px) {
+
+}
+
+DESKTOP
+@media screen and (max-width: 1200px) {
+
+} */
