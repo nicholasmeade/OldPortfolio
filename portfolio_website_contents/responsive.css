@@ -4,19 +4,34 @@
     #projects,
     #skills,
     #contact {
-        visibility: hidden;
+        display: none;
     }
     .navBar {
-        display: inline-flex;
+        display: flex;
     }
-    .navBar #contactMobile #linkedIn #hamburgerIcon {
-        justify-content: flex-end;
+    #myName {
+        width: auto;
+        padding-top: 20px;
+    }
+    .navBar #linkedIn {
+        align-items: flex-end;
+        margin-left: 175px;
+    }
+    .aboutMe p {
+        padding: 10px;
     }
     .p1,
     .p2,
     .p3,
     .p4 {
         justify-self: center;
+    }
+    .p1,
+    .p2,
+    .p3,
+    .p4 {
+        background-color: green;
+        width: 100%;
     }
     .skills {
         width: auto;
