@@ -17,7 +17,7 @@ header {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 30px 10%;
     background-color: rgb(22, 22, 77);
@@ -30,7 +30,7 @@ header {
     white-space: nowrap;
 }
 #myName a {
-    margin-right: auto;
+    margin-left: auto;
     font-size: 34px;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -43,8 +43,9 @@ header {
     color: rgb(247, 247, 247);
     cursor: pointer;
 }
-.temperature {
+.temperature a {
     color: rgba(15, 255, 107, 0.8);
+    text-decoration: none;
 }
 .navBar li, h2, p {
     color: #dadada
@@ -118,7 +119,9 @@ button:hover {
 h2 {
     font-size: 36px;
 }
-
+.name {
+    color: rgb(109, 255, 231);
+}
 p {
     font-size: 22px;
 }
@@ -249,12 +252,9 @@ footer {
         display: initial;
         align-items: center;
     }
-    /* #myName a {
-        font-size: 30px;
-    } */
-    .navBar {
+    /* .navBar {
         display: inline-flex;
-    }
+    } */
     #myName {
         text-align: left;
     }
@@ -282,9 +282,9 @@ footer {
     /* .aboutMe img {
         margin: 500px;
     } */
-    .aboutMe {
+    /* .aboutMe {
         margin: 200px 0px 0px 0px;
-    }
+    } */
     .aboutMe p {
         padding: 0px 300px 0px 300px;
     }
