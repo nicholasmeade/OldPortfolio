@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@600&family=Radio+Canada:wght@500&display=swap');
+
 /* MOBILE */
 #aboutMe,
 #projects,
@@ -5,17 +7,70 @@
 #contact {
     display: none;
 }
-.navBar {
+header li {
+    list-style: none;
+}
+header {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.navBar li {
+    display: inline-block;
+    padding: 0px 20px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
 #myName {
-    width: auto;
-    padding-top: 20px;
+    margin-right: auto;
+    font-size: 48px;
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    text-align: left;
 }
-.navBar #linkedIn {
-    align-items: flex-end;
-    margin-left: 175px;
+#myName:hover {
+    transition: all 0.3s ease 0s;
+    color: rgb(247, 247, 247);
+    cursor: pointer;
 }
+.navBar li, h2, p {
+    color: #dadada
+}
+.navBar li:hover {
+    color: #39c7eb
+}
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 32px;
+}
+button:hover {
+    background-color: rgba(15, 255, 107, 0.8);
+    color: black;
+}
+.container,
+.contactButton {
+    font-size: 24px;
+    color: white;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 22px;
+}
+
 .aboutMe p {
     padding: 10px;
 }
@@ -122,27 +177,16 @@
     #myName {
         text-align: left;
     }
-    /* #aboutMe,
-    #projects,
-    #skills,
-    #contact {
-        display: flex;
-        justify-content: flex-end;
-    } */
-
-    /* #aboutMe,
-    #projects,
-    #skills,
-    #contact {
-        display: none;
+    .p1,
+    .project1Description,
+    .p2,
+    .project2Description,
+    .p3,
+    .project3Description,
+    .p4,
+    .project4Description {
+        max-width: 100%;
     }
-    .navBar {
-        display: flex;
-    }
-    #myName {
-        width: auto;
-        padding-top: 20px;
-    } */
 }
 
 /* DESKTOP */

@@ -1,22 +1,7 @@
 body {
     padding: 50px;
-    background-color: rgb(199, 199, 199);
-}
-
-ul {
-    list-style-type: none;
-}
-
-#myName:hover {
-    color: white;
-}
-
-/* #contactMobile {
-    font-size: 50px;
-} */
-
-#myName {
-    white-space: nowrap;
+    background-color: rgb(118, 135, 182);
+    font-family: 'Radio Canada', sans-serif;
 }
 
 .aboutMe img {
