@@ -1,9 +1,14 @@
 body {
     padding: 50px;
+    background-color: rgb(199, 199, 199);
 }
 
 ul {
     list-style-type: none;
+}
+
+#myName:hover {
+    color: white;
 }
 
 /* #contactMobile {
@@ -14,7 +19,17 @@ ul {
     white-space: nowrap;
 }
 
+.aboutMe img {
+    border-radius: 50%;
+    max-width: 350px;
+    max-height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #linkedIn,
+#bottomLinkedIn,
 #hamburgerIcon,
 #gitHub {
     max-width: 50px;

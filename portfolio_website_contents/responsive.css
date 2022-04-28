@@ -145,14 +145,23 @@
 }
 
 /* TABLET */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   
-}
+} */
 
 /* DESKTOP */
-.navBar {
+/* .navBar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+#aboutMe {
+    margin-left: 200px;
+}
+.aboutMe {
+    margin: 200px 0px 0px 0px;
+}
+.aboutMe p {
+    padding: 0px 300px 0px 300px;
 }
 .projects {
     display: grid;
@@ -229,3 +238,6 @@
 .icons.css {
     grid-column: 2 / 3;
 }
+.getInContact {
+    text-align: center;
+} */
