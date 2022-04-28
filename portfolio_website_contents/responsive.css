@@ -1,119 +1,120 @@
 /* MOBILE */
-@media screen and (max-width: 576px) {
-    #aboutMe,
-    #projects,
-    #skills,
-    #contact {
-        display: none;
-    }
-    .navBar {
-        display: flex;
-    }
-    #myName {
-        width: auto;
-        padding-top: 20px;
-    }
-    .navBar #linkedIn {
-        align-items: flex-end;
-        margin-left: 175px;
-    }
-    .aboutMe p {
-        padding: 10px;
-    }
-    .projects {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr .5fr 1fr .5fr 1fr .5fr 1fr .5fr;
-    }
-    .p1,
-    .p2,
-    .p3,
-    .p4,
-    .project1Description,
-    .project2Description,
-    .project3Description,
-    .project4Description {
-        grid-column: 1 / 5;
-        width: 100%;
-    }
-    .p1 {
-        grid-row: 1 / 2;
-    }
-    .project1Description {
-        grid-row: 2 / 3;
-    }
-    .p2 {
-        grid-row: 3 / 4;
-    }
-    .project2Description {
-        grid-row: 4 / 5;
-    }
-    .p3 {
-        grid-row: 5 / 6;
-    }
-    .project3Description {
-        grid-row: 6 / 7;
-    }
-    .p4 {
-        grid-row: 7 / 8;
-    }
-    .project4Description {
-        grid-row: 8 / 9;
-    }
-    .projects p {
-        text-align: center;
-    }
-
-
-
-    .skills {
-        width: auto;
-    }
-    .icons {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-    }
-    .html,
-    .css,
-    .js,
-    .jquery,
-    .python,
-    .premiere,
-    .ps,
-    .epic {
-        margin: 20px;
-        align-self: center;
-        justify-self: center;
-    }
-    .icons.html {
-        grid-column: 1 / 2;
-    }
-    .icons.css {
-        grid-column: 2 / 3;
-    }
-
-    .contact p {
-        text-align: center;
-    }
-    .bottomNav {
-        display: flex;
-    }
-    .bottomNav #linkedIn {
-        margin-left: 60px;
-    }
-    .bottomNav #copyright {
-        width: auto;
-        padding-top: 20px;
-        margin-right: 20px;
-    }
+#aboutMe,
+#projects,
+#skills,
+#contact {
+    display: none;
+}
+.navBar {
+    display: flex;
+}
+#myName {
+    width: auto;
+    padding-top: 20px;
+}
+.navBar #linkedIn {
+    align-items: flex-end;
+    margin-left: 175px;
+}
+.aboutMe p {
+    padding: 10px;
+}
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr .5fr 1fr .5fr 1fr .5fr 1fr .5fr;
+}
+.p1,
+.p2,
+.p3,
+.p4,
+.project1Description,
+.project2Description,
+.project3Description,
+.project4Description {
+    grid-column: 1 / 5;
+    width: 100%;
+}
+.p1 {
+    grid-row: 1 / 2;
+}
+.project1Description {
+    grid-row: 2 / 3;
+}
+.p2 {
+    grid-row: 3 / 4;
+}
+.project2Description {
+    grid-row: 4 / 5;
+}
+.p3 {
+    grid-row: 5 / 6;
+}
+.project3Description {
+    grid-row: 6 / 7;
+}
+.p4 {
+    grid-row: 7 / 8;
+}
+.project4Description {
+    grid-row: 8 / 9;
+}
+.projects p {
+    text-align: center;
+}
+.skills {
+    width: auto;
+}
+.icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.html,
+.css,
+.js,
+.jquery,
+.python,
+.premiere,
+.ps,
+.epic {
+    margin: 20px;
+    align-self: center;
+    justify-self: center;
+}
+.icons.html {
+    grid-column: 1 / 2;
+}
+.icons.css {
+    grid-column: 2 / 3;
+}
+.contact p {
+    text-align: center;
+}
+.bottomNav {
+    display: flex;
+}
+.bottomNav #linkedIn {
+    margin-left: 60px;
+}
+.bottomNav #copyright {
+     width: auto;
+    padding-top: 20px;
+     margin-right: 20px;
 }
 
-@media screen and (min-width: 576px) {
+/* TABLET */
+@media screen and (min-width: 768px) {
     #contactMobile,
     #linkedIn,
     #hamburgerIcon {
         display: none;
+    }
+    #aboutMe,
+    #projects,
+    #skills,
+    #contact {
+        display: initial;
     }
     .navBar {
         display: flex;
@@ -144,100 +145,101 @@
     } */
 }
 
-/* TABLET */
-/* @media screen and (max-width: 768px) {
-  
-} */
-
 /* DESKTOP */
-/* .navBar {
-    display: flex;
-    justify-content: space-around;
-}
-#aboutMe {
-    margin-left: 200px;
-}
-.aboutMe {
-    margin: 200px 0px 0px 0px;
-}
-.aboutMe p {
-    padding: 0px 300px 0px 300px;
-}
-.projects {
-    display: grid;
-    grid-template-columns: 1fr .5fr .5fr 1fr;
-    grid-template-rows: 1fr .5fr 1fr .5fr;
-    margin: 50px 60px 50px 60px;
-}
-.p1,
-.p2,
-.p3,
-.p4,
-.project1Description,
-.project2Description,
-.project3Description,
-.project4Description {
-     width: 100%;
-    align-items: center;
-}
-.p1 {
-    grid-row: 1 / 2;
-}
-.project1Description {
-    grid-row: 2 / 3;
-}
-.p2 {
-    grid-column: 4 / 5;
-    grid-row: 1 / 2;
-}
-.project2Description {
-    grid-column: 4 / 5;
-    grid-row: 2 / 3;
-}
-.p3 {
-    grid-row: 3 / 4;
-}
-.project3Description {
-    grid-row: 4 / 5;
-}
-.p4 {
-    grid-column: 4 / 5;
-    grid-row: 3 / 4;
-}
-.project4Description {
-    grid-column: 4 / 5;
-    grid-row: 4 / 5;
-}
-.projects p {
-    text-align: center;
-}
+@media (min-width: 992px) {
+    .navBar {
+        display: flex;
+        justify-content: space-around;
+    }
+    #aboutMe {
+        margin-left: 200px;
+    }
+    .aboutMe {
+        margin: 200px 0px 0px 0px;
+    }
+    .aboutMe p {
+        padding: 0px 300px 0px 300px;
+    }
+    .projects {
+        display: grid;
+        column-gap: 30px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr .5fr 1fr .5fr;
+        padding: 100px 200px 100px 200px;
+    }
+    .p1 {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
+    .project1Description {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+    .p2 {
+        grid-column: 3 / 5;
+        grid-row: 1 / 2;
+    }
+    .project2Description {
+        grid-column: 3 / 5;
+        grid-row: 2 / 3;
+    }
+    .p3 {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+    }
+    .project3Description {
+        grid-column: 1 / 3;
+        grid-row: 4 / 5;
+    }
+    .p4 {
+        grid-column: 3 / 5;
+        grid-row: 3 / 4;
+    }
+    .project4Description {
+        grid-column: 3 / 5;
+        grid-row: 4 / 5;
+    }
+    .projects p {
+        text-align: center;
+    }
+    .p1,
+    .project1Description,
+    .p2,
+    .project2Description,
+    .p3,
+    .project3Description,
+    .p4,
+    .project4Description {
+        max-width: 100%;
+    }
 
-.skills {
-    width: auto;
+    .skills {
+        width: auto;
+    }
+    .icons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .html,
+    .css,
+    .js,
+    .jquery,
+    .python,
+    .premiere,
+    .ps,
+    .epic {
+        margin: 20px;
+        align-self: center;
+        justify-self: center;
+    }
+    .icons.html {
+        grid-column: 1 / 2;
+    }
+    .icons.css {
+        grid-column: 2 / 3;
+    }
+    .getInContact {
+        text-align: center;
+    }
 }
-.icons {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-.html,
-.css,
-.js,
-.jquery,
-.python,
-.premiere,
-.ps,
-.epic {
-    margin: 20px;
-    align-self: center;
-    justify-self: center;
-}
-.icons.html {
-    grid-column: 1 / 2;
-}
-.icons.css {
-    grid-column: 2 / 3;
-}
-.getInContact {
-    text-align: center;
-} */
