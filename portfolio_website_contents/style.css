@@ -15,7 +15,8 @@ ul {
 }
 
 #linkedIn,
-#hamburgerIcon {
+#hamburgerIcon,
+#gitHub {
     max-width: 50px;
     max-height: 50px;
 }

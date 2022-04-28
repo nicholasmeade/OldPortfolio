@@ -23,7 +23,7 @@
     .projects {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr .5fr 1fr .5fr 1fr .5fr 1fr;
+        grid-template-rows: 1fr .5fr 1fr .5fr 1fr .5fr 1fr .5fr;
     }
     .p1,
     .p2,
@@ -82,6 +82,7 @@
     .premiere,
     .ps,
     .epic {
+        margin: 20px;
         align-self: center;
         justify-self: center;
     }
@@ -91,22 +92,56 @@
     .icons.css {
         grid-column: 2 / 3;
     }
+
+    .contact p {
+        text-align: center;
+    }
+    .bottomNav {
+        display: flex;
+    }
+    .bottomNav #linkedIn {
+        margin-left: 60px;
+    }
+    .bottomNav #copyright {
+        width: auto;
+        padding-top: 20px;
+        margin-right: 20px;
+    }
 }
 
 @media screen and (min-width: 576px) {
     #contactMobile,
     #linkedIn,
     #hamburgerIcon {
-        visibility: hidden;
+        display: none;
     }
-    #aboutMe,
+    .navBar {
+        display: flex;
+    }
+    #myName {
+        text-align: left;
+    }
+    /* #aboutMe,
     #projects,
     #skills,
     #contact {
-        display: inline-flex;
+        display: flex;
         justify-content: flex-end;
-        position: top;
+    } */
+
+    /* #aboutMe,
+    #projects,
+    #skills,
+    #contact {
+        display: none;
     }
+    .navBar {
+        display: flex;
+    }
+    #myName {
+        width: auto;
+        padding-top: 20px;
+    } */
 }
 
 /* TABLET */
@@ -115,6 +150,82 @@
 }
 
 /* DESKTOP */
-@media screen and (max-width: 1200px) {
-   
+.navBar {
+    display: flex;
+    justify-content: space-between;
+}
+.projects {
+    display: grid;
+    grid-template-columns: 1fr .5fr .5fr 1fr;
+    grid-template-rows: 1fr .5fr 1fr .5fr;
+    margin: 50px 60px 50px 60px;
+}
+.p1,
+.p2,
+.p3,
+.p4,
+.project1Description,
+.project2Description,
+.project3Description,
+.project4Description {
+     width: 100%;
+    align-items: center;
+}
+.p1 {
+    grid-row: 1 / 2;
+}
+.project1Description {
+    grid-row: 2 / 3;
+}
+.p2 {
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+}
+.project2Description {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+.p3 {
+    grid-row: 3 / 4;
+}
+.project3Description {
+    grid-row: 4 / 5;
+}
+.p4 {
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+}
+.project4Description {
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+.projects p {
+    text-align: center;
+}
+
+.skills {
+    width: auto;
+}
+.icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.html,
+.css,
+.js,
+.jquery,
+.python,
+.premiere,
+.ps,
+.epic {
+    margin: 20px;
+    align-self: center;
+    justify-self: center;
+}
+.icons.html {
+    grid-column: 1 / 2;
+}
+.icons.css {
+    grid-column: 2 / 3;
 }
