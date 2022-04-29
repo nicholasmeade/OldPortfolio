@@ -100,9 +100,6 @@ header {
 .navBar li:hover {
     color: #39c7eb
 }
-.navbar projects:hover {
-    target
-}
 button {
     padding: 9px 25px;
     background-color: rgba(0,136,169,1);
@@ -259,9 +256,6 @@ footer {
 
 /* TABLET */
 @media screen and (min-width: 768px) {
-    .hamburger {
-        display: none;
-    }
     #aboutMe,
     #projects,
     #skills,
@@ -269,9 +263,6 @@ footer {
         display: initial;
         align-items: center;
     }
-    /* .navBar {
-        display: inline-flex;
-    } */
     #myName {
         text-align: left;
     }
