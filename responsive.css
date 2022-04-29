@@ -219,7 +219,13 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%; 
+    padding: 30px 10%;
+    background-color: rgba(22, 22, 77, .5);
+}
+.returnToTop:hover {
+    transition: 0.3s ease 0s;
+    cursor: pointer;
+    color: #39c7eb
 }
 #copyright {
     margin-right: auto;
