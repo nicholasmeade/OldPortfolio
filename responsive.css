@@ -49,9 +49,7 @@ div.skills img {
 #aboutMe,
 #projects,
 #skills,
-#contact,
-.hamburger,
-.bar {
+#contact {
     display: none;
 }
 header li {
