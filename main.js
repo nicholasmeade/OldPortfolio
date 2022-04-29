@@ -5,5 +5,5 @@ $.ajax({
 
     .then(function(response){
         console.log(response)
-        $('.aboutMe').append(`<p class="temperature"><a href="https://www.weather.gov/">My current weather is ${response.main.temp}°. Click here to find out yours!</a></p>`)
+        $('.aboutMe').append(`<p class="temperature"><a href="https://www.weather.gov/" target="blank">My current weather is ${response.main.temp}°. Click here to find out yours!</a></p>`)
     })

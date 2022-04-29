@@ -1,5 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@600&family=Radio+Canada:wght@500&display=swap');
 
+body {
+    background-color: rgb(67, 79, 114);
+    font-family: 'Radio Canada', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.aboutMe img {
+    border-radius: 50%;
+    max-width: 350px;
+    max-height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#linkedIn,
+#bottomLinkedIn,
+#hamburgerIcon,
+#gitHub {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.bottomLinkedIn {
+    border-radius: 50%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.aboutMe p {
+    text-align: center;
+}
+
+div.skills img {
+    display: flex;
+    justify-content: center;
+    height: 125px;
+    width: 125px;
+}
+
 /* MOBILE */
 #aboutMe,
 #projects,
@@ -45,7 +90,11 @@ header {
 }
 .temperature a {
     color: rgba(15, 255, 107, 0.8);
+    transition: 0.5s ease 0s;
     text-decoration: none;
+}
+.temperature a:hover {
+    color: rgba(253, 250, 40, 0.8);
 }
 .navBar li, h2, p {
     color: #dadada
@@ -53,13 +102,16 @@ header {
 .navBar li:hover {
     color: #39c7eb
 }
+.navbar projects:hover {
+    target
+}
 button {
     padding: 9px 25px;
     background-color: rgba(0,136,169,1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    transition: all 0.5s ease 0s;
     font-family: 'Radio Canada', sans-serif;
     font-size: 28px;
     align-items: right;
@@ -73,48 +125,6 @@ button:hover {
     font-size: 24px;
     color: white;
 }
-
-.bar {
-    display: block;
-    cursor: pointer;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: white;
-}
-
-/* .hamburger.active .bar:nth-child(2){
-    opacity: 0;
-}
-.hamburger.active .bar:nth-child(1){
-    transform: translateY(8px) rotate(45deg);
-}
-.hamburger.active .bar:nth-child(3){
-    transform: translateY(-8px) rotate(-45deg);
-}
-
-.navBar {
-    position: fixed;
-    left: -100%;
-    top: 70px;
-    gap: 0;
-    flex-direction: column;
-    background-color: gray;
-    width: 100%;
-    text-align: center;
-    transition: 0.3s;
-}
-
-.navbar li {
-    margin: 16px 0;
-}
-
-.navbar.active {
-    left: 0;
-} */
-
 
 h2 {
     font-size: 36px;
@@ -238,12 +248,15 @@ footer {
 .bottomNav li:hover {
     border-radius: 50%;
     box-shadow: 0px 0px 5px 5px white;
-    transition: 0.3s ease;
+    transition: 0.5s ease;
     cursor: pointer;
 }
 .returnToTop {
     text-decoration: none;
     color: white;
+}
+.email {
+    color: gold;
 }
 
 /* TABLET */
@@ -285,12 +298,6 @@ footer {
     #aboutMe {
         margin-left: auto;
     }
-    /* .aboutMe img {
-        margin: 500px;
-    } */
-    /* .aboutMe {
-        margin: 200px 0px 0px 0px;
-    } */
     .aboutMe p {
         padding: 0px 300px 0px 300px;
     }
