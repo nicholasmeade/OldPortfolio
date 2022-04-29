@@ -14,7 +14,7 @@ What lessons did you learn during this project and how will you apply them towar
 - structure is important - we had to have our own structure working on an independent project, keeping regular breaks and going outside when you have 'coders block' was incredibly useful
 - just because a technology can be useful, learning it for what you are trying to do can pose to be more of a time sink than it is actually worth - I really enjoyed what Bootstrap is capable of doing, but I spent far too much time trying to make it work and eventually scrapped its integration entirely
 - got to really learn what aspects of code I enjoy more than others, and that really comes with working on projects beyond just lectures and labs in class
-- the power of utilizing different resources - if you cannot remember something lookit up immediately
+- the power of utilizing different resources - if you cannot remember something look it up immediately
 - utilizing how to properly Google something
 - do not be afraid to ask for help especially when the help is already in front of you like our program, I had several useful conversations with all the issue tickets I submitted this week
 
