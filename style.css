@@ -134,45 +134,29 @@ p {
 .aboutMe p {
     padding: 10px;
 }
-.projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr .5fr 1fr .5fr 1fr .5fr 1fr .5fr;
+
+.contact-link {
+    list-style: none;
 }
-.p1,
-.p2,
-.p3,
-.p4,
-.project1Description,
-.project2Description,
-.project3Description,
-.project4Description {
-    grid-column: 1 / 5;
+
+.rootinez-pic,
+.connected-pic {
     width: 100%;
+    max-width: 1200px;
+    max-height: 1000px;
 }
-.p1 {
-    grid-row: 1 / 2;
+
+.rootinez-github,
+.connected-github {
+    max-width: 100px;
+    max-height: 100px;
+    justify-items: center;
 }
-.project1Description {
-    grid-row: 2 / 3;
-}
-.p2 {
-    grid-row: 3 / 4;
-}
-.project2Description {
-    grid-row: 4 / 5;
-}
-.p3 {
-    grid-row: 5 / 6;
-}
-.project3Description {
-    grid-row: 6 / 7;
-}
-.p4 {
-    grid-row: 7 / 8;
-}
-.project4Description {
-    grid-row: 8 / 9;
+
+.rootinez-description,
+.connected-description {
+    width: 100%;
+    max-width: 1200px;
 }
 .projects p {
     text-align: center;
@@ -298,10 +282,9 @@ footer {
     }
     .projects {
         display: grid;
-        column-gap: 30px;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr .35fr 1fr .35fr;
-        padding: 100px 200px 100px 200px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
     }
     .p1 {
         grid-column: 1 / 3;
